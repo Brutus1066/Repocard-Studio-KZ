@@ -41,10 +41,6 @@
     "publisher": "LAZYFROG (creator of KZ)"
   },
   "plugins": {
-    "opener": {},
-    "dialog": {},
-    "fs": {
-      "scope": ["$DOWNLOAD/**", "$DOCUMENT/**", "$HOME/**"]
-    }
+    "opener": {}
   }
 }

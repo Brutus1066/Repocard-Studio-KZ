@@ -41,9 +41,6 @@
     "publisher": "LAZYFROG (KZ)"
   },
   "plugins": {
-    "opener": {},
-    "fs": {
-      "scope": ["$DOWNLOAD/**", "$DOCUMENT/**", "$HOME/**"]
-    }
+    "opener": {}
   }
 }

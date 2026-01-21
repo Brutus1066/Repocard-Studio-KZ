@@ -22,12 +22,20 @@ That's it. No account. No cloud. No tracking.
 
 ## 📸 Screenshots
 
-> **Screenshots coming soon!** Run the app and take a screenshot to contribute.
->
-> To add screenshots:
-> 1. Run `npm run tauri dev`
-> 2. Take screenshots of the app in action
-> 3. Save as `docs/screenshots/card-preview.png` and `docs/screenshots/export-options.png`
+<p align="center">
+  <img src="docs/screenshots/screenshot-1.png" alt="RepoCard Studio - Empty State" width="800"/>
+</p>
+<p align="center"><em>Clean interface ready to fetch any GitHub repository</em></p>
+
+<p align="center">
+  <img src="docs/screenshots/screenshot-2.png" alt="RepoCard Studio - Minimal Template" width="800"/>
+</p>
+<p align="center"><em>Minimal template with light, professional styling</em></p>
+
+<p align="center">
+  <img src="docs/screenshots/screenshot-3.png" alt="RepoCard Studio - Gradient Template" width="800"/>
+</p>
+<p align="center"><em>Modern gradient template with customizable colors</em></p>
 
 ---
 
