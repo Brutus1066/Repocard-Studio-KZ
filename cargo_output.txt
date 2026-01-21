@@ -1,0 +1,46 @@
+warning: unused import: `std::fs`
+ --> src\lib.rs:5:5
+  |
+5 | use std::fs;
+  |     ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `std::path::PathBuf`
+ --> src\lib.rs:6:5
+  |
+6 | use std::path::PathBuf;
+  |     ^^^^^^^^^^^^^^^^^^
+
+warning: private item shadows public glob re-export
+   --> src\lib.rs:109:1
+    |
+109 | / fn generate_readme_snippet(metadata: RepoMetadata, include_attribution: bool) -> String {
+110 | |     templates::generate_readme_snippet(&metadata, include_attribution)
+111 | | }
+    | |_^
+    |
+note: the name `generate_readme_snippet` in the value namespace is supposed to be publicly re-exported here
+   --> src\lib.rs:14:9
+    |
+ 14 | pub use templates::*;
+    |         ^^^^^^^^^^^^
+note: but the private item here shadows it
+   --> src\lib.rs:109:1
+    |
+109 | / fn generate_readme_snippet(metadata: RepoMetadata, include_attribution: bool) -> String {
+110 | |     templates::generate_readme_snippet(&metadata, include_attribution)
+111 | | }
+    | |_^
+    = note: `#[warn(hidden_glob_reexports)]` on by default
+
+warning: unused variable: `i`
+   --> src\templates.rs:345:10
+    |
+345 |     for (i, topic) in topics.iter().take(max_topics).enumerate() {
+    |          ^ help: if this is intentional, prefix it with an underscore: `_i`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: `repocard-studio` (lib) generated 4 warnings (run `cargo fix --lib -p repocard-studio` to apply 3 suggestions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.67s
