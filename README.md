@@ -169,6 +169,6 @@ MIT License — See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by <a href="https://kindware.dev">LAZYFROG (creator of KZ)</a></strong><br>
+  <strong>Built with ❤️ by <a href="https://kindware.dev">LAZYFROG (of KZ)</a></strong><br>
   <em>Free tools for developers who ship.</em>
 </p>
