@@ -1,5 +1,5 @@
 // RepoCard Studio - App Component Tests
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
@@ -11,7 +11,7 @@ describe('App', () => {
       render(<App />);
     });
     expect(screen.getByText('RepoCard Studio')).toBeInTheDocument();
-    expect(screen.getByText('by LAZYFROG (creator of KZ)')).toBeInTheDocument();
+    expect(screen.getByText('by LAZYFROG (KZ)')).toBeInTheDocument();
   });
 
   it('shows empty state when no repo is loaded', async () => {

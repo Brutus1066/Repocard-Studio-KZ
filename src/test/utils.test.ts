@@ -1,5 +1,5 @@
 // RepoCard Studio - Utility Tests
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 import { describe, it, expect } from 'vitest';
 
@@ -164,7 +164,7 @@ describe('Export Structure', () => {
 });
 
 describe('Attribution', () => {
-  const ATTRIBUTION_TEXT = 'Generated with RepoCard Studio — LAZYFROG (creator of KZ) — kindware.dev';
+  const ATTRIBUTION_TEXT = 'Generated with RepoCard Studio — LAZYFROG (KZ) — kindware.dev';
 
   it('contains correct attribution text', () => {
     expect(ATTRIBUTION_TEXT).toContain('RepoCard Studio');

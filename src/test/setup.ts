@@ -1,5 +1,5 @@
 // RepoCard Studio - Test Setup
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 import '@testing-library/jest-dom';
 import { vi } from 'vitest';

@@ -1,5 +1,5 @@
 // RepoCard Studio - GitHub API Module
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (of KZ) — kindware.dev
 
 use crate::{CommitInfo, RepoMetadata, LicenseInfo, OwnerInfo};
 use reqwest::Client;

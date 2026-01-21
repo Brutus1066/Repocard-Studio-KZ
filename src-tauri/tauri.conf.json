@@ -38,11 +38,10 @@
     "category": "DeveloperTool",
     "shortDescription": "Generate polished social cards for GitHub repos",
     "longDescription": "RepoCard Studio is a free, developer-first utility that helps you promote your GitHub repositories by generating polished, ready-to-share social cards, README snippets, release notes, and press kits.",
-    "publisher": "LAZYFROG (creator of KZ)"
+    "publisher": "LAZYFROG (KZ)"
   },
   "plugins": {
     "opener": {},
-    "dialog": {},
     "fs": {
       "scope": ["$DOWNLOAD/**", "$DOCUMENT/**", "$HOME/**"]
     }

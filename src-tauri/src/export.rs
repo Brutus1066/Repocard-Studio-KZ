@@ -1,5 +1,5 @@
 // RepoCard Studio - Export Module
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 use crate::{CommitInfo, ExportOptions, ExportResult, RepoMetadata};
 use crate::templates;

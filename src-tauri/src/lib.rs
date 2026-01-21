@@ -1,5 +1,5 @@
 // RepoCard Studio - Rust Backend
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 use serde::{Deserialize, Serialize};
 

@@ -24,10 +24,19 @@ dist-ssr
 *.sw?
 
 # Rust/Tauri build artifacts
+target/
 src-tauri/target/
 *.exe
 *.msi
+*.pdb
+*.rlib
+*.rmeta
+*.lib
 
 # Build check logs
 cargo_check_output.log
 build_check.bat
+cargo_output.txt
+
+# Generated files
+gen/

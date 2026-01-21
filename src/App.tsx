@@ -1,5 +1,5 @@
 // RepoCard Studio - Main Application
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 import { useState, useEffect, useCallback } from "react";
 import { invoke } from "@tauri-apps/api/core";
@@ -44,7 +44,7 @@ interface ExportResult {
 type TabId = "card" | "readme" | "release" | "press";
 type TemplateId = "modern" | "minimal" | "gradient";
 
-const ATTRIBUTION_TEXT = "Generated with RepoCard Studio — LAZYFROG (creator of KZ) — kindware.dev";
+const ATTRIBUTION_TEXT = "Generated with RepoCard Studio — LAZYFROG (KZ) — kindware.dev";
 
 function formatCount(count: number): string {
   if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1)}M`;
@@ -219,7 +219,7 @@ function App() {
       <header className="app-header">
         <h1>
           <span className="brand-accent">⬡</span> RepoCard Studio
-          <span className="creator-tag">by LAZYFROG (creator of KZ)</span>
+          <span className="creator-tag">by LAZYFROG (KZ)</span>
         </h1>
         <a
           href="https://kindware.dev"

@@ -1,10 +1,10 @@
 // RepoCard Studio - SVG Templates Module
-// LAZYFROG (creator of KZ) — kindware.dev
+// LAZYFROG (KZ) — kindware.dev
 
 use crate::{CommitInfo, RepoMetadata};
 use chrono::Utc;
 
-const ATTRIBUTION_TEXT: &str = "Generated with RepoCard Studio — LAZYFROG (creator of KZ) — kindware.dev";
+const ATTRIBUTION_TEXT: &str = "Generated with RepoCard Studio — LAZYFROG (KZ) — kindware.dev";
 
 /// Language colors for visual branding
 fn get_language_color(language: &str) -> &'static str {

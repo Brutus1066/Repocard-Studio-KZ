@@ -44,4 +44,4 @@ This project does not aim to:
 
 ---
 
-**Built with transparency by LAZYFROG (creator of KZ)** — [kindware.dev](https://kindware.dev)
+**Built with transparency by LAZYFROG (KZ)** — [kindware.dev](https://kindware.dev)

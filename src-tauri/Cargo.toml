@@ -2,7 +2,7 @@
 name = "repocard-studio"
 version = "1.0.0"
 description = "RepoCard Studio - Generate polished social cards for GitHub repos"
-authors = ["LAZYFROG (creator of KZ)"]
+authors = ["LAZYFROG (KZ)"]
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/lazyfrog/repocard-studio"

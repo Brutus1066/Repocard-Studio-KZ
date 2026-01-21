@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A developer-first utility for generating polished GitHub repo social cards and press kits",
-  "author": "LAZYFROG (creator of KZ)",
+  "author": "LAZYFROG (KZ)",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

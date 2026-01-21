@@ -2,7 +2,7 @@
 
 **Generate polished social cards, README snippets, and press kits for your GitHub repos — in 60 seconds.**
 
-Created by **LAZYFROG (creator of KZ)** — [kindware.dev](https://kindware.dev)
+Created by **LAZYFROG (KZ)** — [kindware.dev](https://kindware.dev)
 
 [![CI](https://github.com/Brutus1066/Repocard-Studio-KZ/actions/workflows/ci.yml/badge.svg)](https://github.com/Brutus1066/Repocard-Studio-KZ/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -141,7 +141,7 @@ Made something cool? Share it!
 
 Generated assets include optional attribution:
 
-> *Generated with RepoCard Studio — LAZYFROG (creator of KZ) — kindware.dev*
+> *Generated with RepoCard Studio — LAZYFROG (KZ) — kindware.dev*
 
 You can disable this in the UI, but keeping it helps free tools stay visible. 🙏
 
@@ -169,6 +169,6 @@ MIT License — See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by <a href="https://kindware.dev">LAZYFROG (of KZ)</a></strong><br>
+  <strong>Built with ❤️ by <a href="https://kindware.dev">LAZYFROG (KZ)</a></strong><br>
   <em>Free tools for developers who ship.</em>
 </p>
