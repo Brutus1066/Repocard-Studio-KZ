@@ -82,8 +82,8 @@ I built RepoCard Studio because every time I released something, I spent more ti
 
 | Platform | Download |
 |----------|----------|
-| Windows (Installer) | [RepoCard Studio Setup.exe](https://github.com/Brutus1066/Repocard-Studio-KZ/releases/latest) |
-| Windows (MSI) | [RepoCard Studio.msi](https://github.com/Brutus1066/Repocard-Studio-KZ/releases/latest) |
+| Windows (NSIS Installer) | [Releases Page](https://github.com/Brutus1066/Repocard-Studio-KZ/releases/latest) |
+| Windows (MSI Installer) | [Releases Page](https://github.com/Brutus1066/Repocard-Studio-KZ/releases/latest) |
 
 > macOS and Linux builds coming if there's demand. Open an issue!
 
@@ -115,7 +115,7 @@ share-kit/
 
 ```bash
 git clone https://github.com/Brutus1066/Repocard-Studio-KZ.git
-cd Repocard-Studio-KZ/apps/repocard-studio
+cd Repocard-Studio-KZ
 npm install
 npm run tauri dev
 ```
@@ -125,7 +125,7 @@ npm run tauri dev
 ```bash
 npm test              # Frontend tests
 npm run lint          # TypeScript check
-cd src-tauri && cargo test  # Rust tests
+cargo test --manifest-path src-tauri/Cargo.toml  # Rust tests
 ```
 
 ### Build
